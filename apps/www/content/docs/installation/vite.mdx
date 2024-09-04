@@ -92,6 +92,18 @@ export default defineConfig({
 })
 ```
 
+### Update your global css file
+
+Add the following header to your main css file, `src/index.css` for vite.
+
+```css {1-3} showLineNumbers
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ... */
+```
+
 ### Run the CLI
 
 Run the `shadcn-ui` init command to setup your project:
